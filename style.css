@@ -267,3 +267,20 @@ transition: all 0.5s ease-in-out;
         padding: 20px;
     }
 }
+
+/* Animations */
+
+img{
+    transition: transform .3s ease;
+}
+img:hover{
+    transform: scale(1.1);
+}
+.ctn:hover{
+    background: whitesmoke;
+    color: #fc036b;
+    box-shadow: 2px 2px 2px #00000056;
+}
+li a:hover{
+    color: #fc036b;
+}
